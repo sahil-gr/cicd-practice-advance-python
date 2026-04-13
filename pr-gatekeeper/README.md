@@ -21,7 +21,6 @@ Build a CLI tool that:
 			  - name: terraform-tag-check
 			    file_patterns: ["*.tf"]
 			    required_tags: ["owner", "env"]
-		```
 		Use API to:
 			* Get PR changed files
 			* Read patch/diff
