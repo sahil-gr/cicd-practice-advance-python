@@ -1,4 +1,5 @@
 🔥 1. Policy-as-Code PR Gatekeeper (Enterprise Level)
+
 💡 Problem
 
 Build a CLI tool that:
@@ -26,6 +27,7 @@ Build a CLI tool that:
 		Post PR comment with violations
 
 🚀 Advanced Twist
+
 	Parallelize file processing
 	Add retry logic + rate limit handling
 	Support both:
