@@ -11,6 +11,7 @@ Build a CLI tool that:
 	
 🧩 Requirements
 		Parse config like:
+		```text
 			rules:
 			  - name: no-plain-secrets
 			    file_patterns: ["*.yaml", "*.yml"]
@@ -20,10 +21,13 @@ Build a CLI tool that:
 			  - name: terraform-tag-check
 			    file_patterns: ["*.tf"]
 			    required_tags: ["owner", "env"]
+		```
 		Use API to:
-			Get PR changed files
-			Read patch/diff
+			* Get PR changed files
+			* Read patch/diff
+
 		Apply rules dynamically
+		
 		Post PR comment with violations
 
 🚀 Advanced Twist
